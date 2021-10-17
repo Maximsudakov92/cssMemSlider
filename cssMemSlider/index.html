@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Slider</title>
 </head>
 <body>
-  <div class="slider middle">
-    <div class="slides">
-      <input type="radio" name="r" id="r1" checked>
-      <input type="radio" name="r" id="r2">
-      <input type="radio" name="r" id="r3">
-      <input type="radio" name="r" id="r4">
+  <div class="wrapper">
 
-      <div class="slide"><img src="" alt=""></div>
-      <div class="slide"><img src="" alt=""></div>
-      <div class="slide"><img src="" alt=""></div>
-      <div class="slide"><img src="" alt=""></div>      
+    <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+  
+    <div class="slider middle">
+      <div class="slides">
+        <div class="slide slide-1"><img src="assets/img/img1.jpg" alt="mem"></div>
+        <div class="slide"><img src="assets/img/img2.jpg" alt="mem"></div>
+        <div class="slide"><img src="assets/img/img3.jpg" alt="mem"></div>
+        <div class="slide"><img src="assets/img/img4.jpg" alt="mem"></div>  
+      </div>  
     </div>
-
+    <div class="slider-text">
+      <div class="slides">
+        <div class="slide slide-1"><p>Text1</p></div>
+        <div class="slide"><p>Text2</p></div>
+        <div class="slide"><p>Text3</p></div>
+        <div class="slide"><p>Text4</p></div>
+      </div>
+    </div>
     <div class="navigation">
       <label for="r1" class="bar"></label>
       <label for="r2" class="bar"></label>
