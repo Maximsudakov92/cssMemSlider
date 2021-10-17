@@ -112,3 +112,7 @@ input[name="r"] {
 #r4:checked ~ .slider-text .slide-1  {
   margin-left: -75%;
 }
+
+@media  {
+  
+}
