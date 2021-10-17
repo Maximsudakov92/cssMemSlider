@@ -68,10 +68,6 @@
   background-color: #ffffff;
 }
 
-.bar:active {
-  background-color: rgb(76, 77, 76);
-}
-
 input[name="r"] {
   position: absolute;
   visibility: hidden;
@@ -111,8 +107,4 @@ input[name="r"] {
 #r4:checked ~ .slider .slide-1,
 #r4:checked ~ .slider-text .slide-1  {
   margin-left: -75%;
-}
-
-@media  {
-  
 }
